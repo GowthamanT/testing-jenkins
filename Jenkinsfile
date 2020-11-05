@@ -12,5 +12,10 @@ pipeline {
                 sh './gradlew test'
             }
         }
+        stage('Test') {
+            steps {
+                sh './gradlew test'
+            }
+        }
     }
 }
